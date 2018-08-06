@@ -9,7 +9,7 @@ import { Mentor } from './mentor';
 })
 export class LoginService {
 
-  api_url = 'http://localhost:5000';
+  api_url = 'https://windebate-api.herokuapp.com';
 
   isLoggedOut: boolean = true;
 

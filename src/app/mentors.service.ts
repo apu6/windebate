@@ -20,7 +20,7 @@ export class MentorsService {
     'mentee': ''
   }
 
-  api_url = 'http://localhost:5000';
+  api_url = 'https://windebate-api.herokuapp.com';
 
   constructor(
     private http: HttpClient
