@@ -1,0 +1,24 @@
+.contact-page {
+    background-color: #e8e0fc;
+    height: 100%;
+    width: 100%;
+}
+
+.col {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.contact-header {
+    text-align: center;
+    padding: 2% 0;
+}
+
+p {
+    font-size: 1rem;
+    padding: 0 10%;
+}
+
+.form {
+    padding: 0 10%;
+}

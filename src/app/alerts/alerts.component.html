@@ -1,0 +1,10 @@
+<div *ngFor="let alert of alerts">
+    <ngb-alert
+      [type]="alert.type || 'danger'"
+      [dismissible]="dismissible"
+      (close)="closedAlert(alert)"
+    >
+      {{alert.message}}
+    </ngb-alert>
+  </div>
+  

@@ -1,0 +1,28 @@
+<div class="modal-content" >
+    <div class="modal-header">
+      <h5 class="modal-title">Sign Up</h5>
+      <button type="button" class="close" aria-label="Close" (click)="close()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <br>
+    </div>
+    <!-- <div class="modal-nav">
+      <ul id="modalNavTabs" class="nav nav-tabs modal-nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link" [class.active]="isClient" (click)="clientSignUp()">Client</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" [class.active]="!isClient" (click)="expertSignUp()">Expert</a>
+        </li>
+      </ul>
+    </div> -->
+    <div class="modal-body">
+      <div class="tab-content">
+          <div class="form-group mb-2">
+            <button class="btn btn-secondary btn-block" (click)="openMenteesSignup()">I am a mentee!</button>
+            <button class="btn btn-secondary btn-block" (click)="openMentorsSignup()">I am a mentor!</button>
+          </div>
+          <!-- [doSynchronously]="doSynchronously" -->
+      </div>
+    </div>
+  </div>

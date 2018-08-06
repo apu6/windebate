@@ -1,0 +1,70 @@
+<div class="modal-content" >
+    <div class="modal-header">
+      <h5 class="modal-title">Sign Up</h5>
+      <button type="button" class="close" aria-label="Close" (click)="close()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <br>
+    </div>
+    <div class="modal-body">
+      <div class="tab-content">
+          <form name="mentorSignupForm" class="form" #mentorSignupForm>
+              <div class="form-group mb-4">
+                <label for="">Email</label>
+                <input type="email" [(ngModel)]="mentor.email" class="form-control" placeholder="Email" name="email" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" [(ngModel)]="mentor.password" class="form-control" placeholder="Password" name="password" required>
+              </div>
+  
+              <div class="form-group mb-4">
+                <label for="">Re-enter Password</label>
+                <input type="password" [(ngModel)]="mentor.confirmPassword" class="form-control" placeholder="Re-enter Password" name="confirmPassword" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="">First name</label>
+                <input type="text" [(ngModel)]="mentor.firstName" class="form-control" placeholder="First name" name="firstName" required>
+              </div>
+  
+              <div class="form-group">
+                <label for="">Last name</label>
+                <input type="text" [(ngModel)]="mentor.lastName" class="form-control" placeholder="Last name" name="lastName" required>
+              </div>
+  
+              <div class="form-group">
+                <label for="">Age</label>
+                <input type="text" [(ngModel)]="mentor.age" class="form-control" placeholder="Age" name="age" required>
+              </div>
+  
+              <div class="form-group">
+                <label for="">School</label>
+                <input type="text" [(ngModel)]="mentor.school" class="form-control" placeholder="School" name="school" required>
+              </div>
+  
+              <div class="form-group">
+                <label for="">Experience</label>
+                <input type="text" [(ngModel)]="mentor.experience" class="form-control" placeholder="Experience" name="experience" required>
+              </div>
+          
+              <!-- <div class="form-group mb-4">
+                <re-captcha name="captcha" *ngIf="showCaptcha" [(ngModel)]="captchaResponse"></re-captcha>
+              </div> -->
+          
+              <div class="form-group mb-2">
+                  <button type="submit" class="btn btn-secondary btn-block" (click)="signup()" [disabled]="!mentorSignupForm.valid  || user.password !== user.confirmPassword || !captchaResponse" >
+                    <span *ngIf="!isLoading; else loading">
+                      Sign Up
+                    </span>
+                    <ng-template #loading>
+                      <!-- <app-loading-spinner [height]="24"></app-loading-spinner> -->
+                    </ng-template>
+                  </button>
+              </div>
+            </form>
+          <!-- [doSynchronously]="doSynchronously" -->
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,30 @@
+.mentees-page {
+    background-color: #e8e0fc;
+    height: 100%;
+    min-height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.col {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.mentees-header {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.signup-button {
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    color: #84b7b1;
+}
+
+.signup-button:hover {
+    cursor: pointer;
+    
+}
+
