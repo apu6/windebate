@@ -1,0 +1,26 @@
+.my-mentee-page {
+    background-color: #d9d0ef;
+    height: 450px;
+    width: 100%;
+    /* border-bottom: 1px solid #beb6db; */
+}
+
+.col {
+    /* padding: 10px; */
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.my-mentee-page-button {
+    border-radius: 20px;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #84b7b1;
+    margin: 3rem 0.5rem;
+}
+
+.my-mentee-page-button:hover {
+    cursor: pointer;
+}

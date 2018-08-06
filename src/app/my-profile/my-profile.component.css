@@ -1,0 +1,12 @@
+.my-profile-page {
+    background-color: #d9d0ef;
+    height: 450px;
+    width: 100%;
+}
+
+.col {
+    /* padding: 10px; */
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+}

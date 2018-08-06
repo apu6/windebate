@@ -1,0 +1,20 @@
+<section class="my-profile-page">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div *ngIf="this.loginService.menteeLoggedIn">
+              <div>Name: {{this.menteesService.mentee.firstName}} {{this.menteesService.mentee.lastName}}</div>
+              <div>Age: {{this.menteesService.mentee.age}} </div>
+              <div>School: {{this.menteesService.mentee.school}} </div>
+          </div>
+
+          <div *ngIf="this.loginService.mentorLoggedIn">
+              <div>Name: {{this.mentorsService.mentor.firstName}} {{this.mentorsService.mentor.lastName}}</div>
+              <div>Age: {{this.mentorsService.mentor.age}} </div>
+              <div>School: {{this.mentorsService.mentor.school}} </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+

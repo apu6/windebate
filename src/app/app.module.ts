@@ -14,15 +14,14 @@ import { MentorsComponent } from './mentors/mentors.component';
 import { ChooseMenteeMentorComponent } from './choose-mentee-mentor/choose-mentee-mentor.component';
 import { ContactComponent } from './contact/contact.component';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
-
-
-
-
-
-
-
-
+import { MyProfileComponent } from './my-profile/my-profile.component';
+import { DrillsComponent } from './drills/drills.component';
+import { MySessionsComponent } from './my-sessions/my-sessions.component';
+import { ViewMyHoursComponent } from './view-my-hours/view-my-hours.component';
+import { MyMenteeComponent } from './my-mentee/my-mentee.component';
+import { HomeComponent } from './home/home.component';
 import { AppComponent } from './app.component';
+
 
 @NgModule({
   declarations: [
@@ -37,11 +36,12 @@ import { AppComponent } from './app.component';
     ChooseMenteeMentorComponent,
     ContactComponent,
     WhoWeAreComponent,
-
-
-
-
-
+    MyProfileComponent,
+    DrillsComponent,    
+    MySessionsComponent,
+    ViewMyHoursComponent,
+    MyMenteeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -49,12 +49,13 @@ import { AppComponent } from './app.component';
     NgbModule.forRoot(),
     FormsModule,
     HttpClientModule,
-
   ],
   entryComponents: [
     LoginComponent,
     MenteesSignupComponent,
     MentorsSignupComponent,
+    ChooseMenteeMentorComponent,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
