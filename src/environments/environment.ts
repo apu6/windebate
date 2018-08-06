@@ -4,7 +4,6 @@
 
 export const environment = {
   production: false,
-  apiBasePath: 'https://windebate-api.herokuapp.com',
 };
 
 /*
