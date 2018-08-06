@@ -16,7 +16,7 @@ export class TopNavComponent implements OnInit {
 
   constructor(
     private modalService: NgbModal,
-    private loginService: LoginService,
+    public loginService: LoginService,
     private router: Router
   ) { }
 
