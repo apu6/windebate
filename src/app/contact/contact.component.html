@@ -33,7 +33,7 @@
             </div> -->
         
             <div class="form-group mb-2">
-              <button type="submit" class="btn btn-secondary btn-block" (click)="signUp()" [disabled]="!contactForm.valid " >
+              <button type="submit" class="btn btn-secondary btn-block" [disabled]="!contactForm.valid " >
                 <span *ngIf="!isLoading; else loading">
                   Send message
                 </span>

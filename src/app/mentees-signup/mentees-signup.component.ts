@@ -22,6 +22,8 @@ export class MenteesSignupComponent implements OnInit {
     preferences: ''
   }
 
+  confirmPassword = '';
+
   constructor(
     public activeModal: NgbActiveModal,
     private menteesService: MenteesService

@@ -23,6 +23,8 @@ export class MentorsSignupComponent implements OnInit {
     experience: ''
   }
 
+  confirmPassword = '';
+
   constructor(
     public activeModal: NgbActiveModal,
     private mentorsService: MentorsService
