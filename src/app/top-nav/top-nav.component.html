@@ -1,0 +1,77 @@
+<div class="navbar navbar-expand-md navbar-light ml-auto">
+  <a routerLink="">
+    <img class="logo" src="../assets/images/w.in-db8.png" alt="w.in-db8.png">
+  </a>
+
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse collapse ml-auto" style="width: 100%" id="collapsibleNavbar" *ngIf="this.loginService.isLoggedOut">
+    <div class="container-fluid" style="width: 100%;">
+      <ul class="navbar-nav" style="justify-content: flex-end">
+          
+        <li class="nav-item active" (click)="onClick()">
+          <a class="nav-link" routerLink="who-we-are">WHO WE ARE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="mentees">MENTEES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="mentors">MENTORS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact">CONTACT</a>
+        </li>
+        <li>
+          <button class="login-button" (click)="openLogin()">Login</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+      <div class="navbar-collapse collapse ml-auto" style="width: 100%" id="collapsibleNavbar" *ngIf="this.loginService.menteeLoggedIn">
+        <div class="container-fluid" style="width: 100%;">
+          <ul class="navbar-nav" style="justify-content: flex-end">
+              
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="drills">SIGNUP FOR DRILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="mentees">CASE EDITTING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="mentors">MENTORS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="my-profile">MY PROFILE</a>
+            </li>
+            <li>
+              <button class="login-button" (click)="logout()">Logout</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="navbar-collapse collapse ml-auto" style="width: 100%" id="collapsibleNavbar" *ngIf="this.loginService.mentorLoggedIn">
+        <div class="container-fluid" style="width: 100%;">
+          <ul class="navbar-nav" style="justify-content: flex-end">
+              
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="drills">CALENDAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="my-mentee">MY MENTEE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="my-profile">MY PROFILE</a>
+            </li>
+            <li>
+              <button class="login-button" (click)="logout()">Logout</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+</div>
+

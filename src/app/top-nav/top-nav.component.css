@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #f2eff9;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* overflow: hidden; */
+    height: 10rem;
+    z-index: 1000;
+}
+.logo {
+    width: 200px;
+    padding: 10px;
+}
+
+.login-button {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #84b7b1;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}

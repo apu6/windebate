@@ -1,0 +1,79 @@
+<div class="modal-content" >
+    <div class="modal-header">
+      <h5 class="modal-title">Login</h5>
+      <button type="button" class="close" aria-label="Close" (click)="close()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <br>
+    </div>
+
+
+    <div class="modal-body">
+        <!-- <div class="col-xs-12">
+          <app-alerts [alerts]="alerts"></app-alerts>
+        </div> -->
+
+      <div class="tab-content">
+
+          <form name="menteeLoginForm" class="form" #loginForm>
+
+              <div class="form-group">
+                <label for="">I am a</label>
+                {{isMentee}}
+                <select class="form-control" [(ngModel)]="isMentee" name="request" required>
+                  <option selected>Mentee</option>
+                  <option value="Mentor">Mentor</option>
+                </select>
+              </div>
+
+            <div class="form-group" *ngIf="isMentee == 'Mentee'">
+              <label for="">Email</label>
+              <input type="email" [(ngModel)]="mentee.email" class="form-control" placeholder="Email" name="Email" required>
+            </div>
+        
+            <div class="form-group" *ngIf="isMentee == 'Mentee'">
+              <label for="">Password</label>
+              <input type="password" [(ngModel)]="mentee.password" class="form-control" placeholder="Password" name="password" required>
+            </div>
+        
+            <div class="form-group mb-2" *ngIf="isMentee == 'Mentee'">
+                <button type="submit" class="btn btn-secondary btn-block" (click)="menteelogin()">
+                  <span *ngIf="!isLoading; else loading">
+                    Login
+                  </span>
+                  <ng-template #loading>
+                    <!-- <app-loading-spinner [height]="24"></app-loading-spinner> -->
+                  </ng-template>
+                </button>
+            </div>
+
+            <div class="form-group" *ngIf="isMentee == 'Mentor'">
+                <label for="">Email</label>
+                <input type="email" [(ngModel)]="mentor.email" class="form-control" placeholder="Email" name="Email" required>
+              </div>
+          
+              <div class="form-group" *ngIf="isMentee == 'Mentor'">
+                <label for="">Password</label>
+                <input type="password" [(ngModel)]="mentor.password" class="form-control" placeholder="Password" name="password" required>
+              </div>
+          
+              <div class="form-group mb-2" *ngIf="isMentee == 'Mentor'">
+                  <button type="submit" class="btn btn-secondary btn-block" (click)="mentorlogin()">
+                    <span *ngIf="!isLoading; else loading">
+                      Login
+                    </span>
+                    <ng-template #loading>
+                      <!-- <app-loading-spinner [height]="24"></app-loading-spinner> -->
+                    </ng-template>
+                  </button>
+              </div>
+
+          </form>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
