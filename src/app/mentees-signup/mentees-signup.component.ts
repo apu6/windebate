@@ -38,6 +38,7 @@ export class MenteesSignupComponent implements OnInit {
 
   signup() {
     this.menteesService.createMentee(this.mentee).subscribe();
+    this.close();
   }
 
 }

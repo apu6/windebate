@@ -1,7 +1,7 @@
 .mentors-page {
     background-color: #e8e0fc;
     height: 100%;
-    min-height: 450px;
+    min-height: 500px;
     width: 100%;
 }
 
@@ -13,6 +13,9 @@
 .mentors-header {
     text-align: center;
     padding: 2% 0;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #150038;
 }
 
 .signup-button {

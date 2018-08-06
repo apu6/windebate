@@ -3,13 +3,15 @@ import { HttpClient } from '@angular/common/http';
 import { Mentee } from './mentee';
 import { Observable } from 'rxjs';
 import { Mentor } from './mentor';
+import { environment } from '../environments/environment';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class LoginService {
 
-  api_url = 'https://windebate-api.herokuapp.com';
+  api_url = environment.apiBasePath;
 
   isLoggedOut: boolean = true;
 

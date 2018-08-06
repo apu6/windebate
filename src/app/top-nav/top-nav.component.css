@@ -1,14 +1,14 @@
 .navbar {
-    background-color: #f2eff9;
+    background-color: #262626;
     width: 100%;
     position: fixed;
     top: 0;
     /* overflow: hidden; */
-    height: 10rem;
+    height: 8rem;
     z-index: 1000;
 }
 .logo {
-    width: 200px;
+    width: 150px;
     padding: 10px;
 }
 
@@ -22,4 +22,8 @@
 
 .login-button:hover {
     cursor: pointer;
+}
+
+ul>li>a{
+    color: white;
 }

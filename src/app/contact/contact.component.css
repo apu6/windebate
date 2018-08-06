@@ -12,6 +12,9 @@
 .contact-header {
     text-align: center;
     padding: 2% 0;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #150038;
 }
 
 p {
