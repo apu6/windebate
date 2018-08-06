@@ -13,7 +13,7 @@ export class MyMenteeComponent implements OnInit {
   mentee: string;
 
   constructor(
-    private mentorsService: MentorsService
+    public mentorsService: MentorsService
   ) { }
 
   ngOnInit() {

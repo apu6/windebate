@@ -12,8 +12,8 @@ export class MyProfileComponent implements OnInit {
 
   constructor(
     private menteesService: MenteesService,
-    private mentorsService: MentorsService,
-    private loginService: LoginService
+    public mentorsService: MentorsService,
+    public loginService: LoginService
   ) { }
 
   mentee = this.menteesService.mentee;
