@@ -13,7 +13,6 @@ import { MenteesComponent } from './mentees/mentees.component';
 import { MentorsComponent } from './mentors/mentors.component';
 import { ChooseMenteeMentorComponent } from './choose-mentee-mentor/choose-mentee-mentor.component';
 import { ContactComponent } from './contact/contact.component';
-import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import { DrillsComponent } from './drills/drills.component';
 import { MySessionsComponent } from './my-sessions/my-sessions.component';
@@ -36,7 +35,6 @@ import { ResourcesComponent } from './resources/resources.component';
     MentorsComponent,
     ChooseMenteeMentorComponent,
     ContactComponent,
-    WhoWeAreComponent,
     MyProfileComponent,
     DrillsComponent,    
     MySessionsComponent,
