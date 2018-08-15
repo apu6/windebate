@@ -21,6 +21,7 @@ import { ViewMyHoursComponent } from './view-my-hours/view-my-hours.component';
 import { MyMenteeComponent } from './my-mentee/my-mentee.component';
 import { HomeComponent } from './home/home.component';
 import { AppComponent } from './app.component';
+import { ResourcesComponent } from './resources/resources.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { AppComponent } from './app.component';
     MySessionsComponent,
     ViewMyHoursComponent,
     MyMenteeComponent,
-    HomeComponent
+    HomeComponent,
+    ResourcesComponent
   ],
   imports: [
     BrowserModule,

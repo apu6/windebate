@@ -1,4 +1,4 @@
-.who-we-are-page {
+.resources-page {
     background-color: #e8e0fc;
     height: 100%;
     min-height: 450px;
@@ -10,24 +10,27 @@
     font-size: 2rem;
 }
 
-.who-we-are-header {
+.resources-header {
     text-align: center;
     padding: 2% 0;
 }
 
 p {
     font-size: 1rem;
-    padding: 0 5%;
+    padding: 0 2.2%;
 }
-
+a:link, a:visited {
+    
+    color: black;
+    
+}
 h5 {
     padding: 0 5%;
     color:  #7c4eaa;
     font-weight: 600;
 }
-
-.claire {
-    width: 250px;
-    height: 250px;
-    margin-left: 5%;
+.sylvia {
+    width: 180px;
+    height: 260px;  
 }
+

@@ -11,6 +11,7 @@ import { DrillsComponent } from '../drills/drills.component';
 import { MySessionsComponent } from '../my-sessions/my-sessions.component';
 import { ViewMyHoursComponent } from '../view-my-hours/view-my-hours.component';
 import { MyMenteeComponent } from '../my-mentee/my-mentee.component';
+import { ResourcesComponent } from '../resources/resources.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'drills', component: DrillsComponent },
   { path: 'my-sessions', component: MySessionsComponent },
   { path: 'view-my-hours', component: ViewMyHoursComponent },
-  { path: 'my-mentee', component: MyMenteeComponent }
+  { path: 'my-mentee', component: MyMenteeComponent },
+  { path: 'resources', component: ResourcesComponent },
 
 ];
 
