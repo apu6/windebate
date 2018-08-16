@@ -29,28 +29,21 @@
 }
 
 .circularmain img {
-    margin: 0 auto;
-    border: 6px solid #f172a1;
-    box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);
-    width: 160px;
-    height: 160px;
+    margin: 0;
+    border: 6px solid #a1c3d1;
+    /*box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);*/
+    width: 180px;
+    height: 180px;
  }
 
- .pic:hover img {
-    -webkit-filter: opacity(100%)brightness(120%);
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-    max-width: 230px;
-    max-height: 230px;
-    display:block;
- }
+ 
 
  
  
  .circular img {
-    margin: 0 auto;
-    border: 6px solid #f172a1;
-    box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    border: 6px solid #a1c3d1;
+ /*   box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);*/
     width: 400px;
     height: 400px;
  }
