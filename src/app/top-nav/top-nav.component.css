@@ -1,5 +1,5 @@
 .navbar {
-    background-color:#f2eff9;
+    background-color:#f0ebf4;
 
     width: 100%;
     position: fixed;
@@ -18,7 +18,8 @@
     font-size: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: #84b7b1;
+    color: #000000;
+    background-color: white;
 }
 
 .login-button:hover {
@@ -26,5 +27,5 @@
 }
 
 ul>li>a{
-    color: #84b7b1;
+    color: #000000;
 }

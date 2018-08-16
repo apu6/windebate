@@ -1,8 +1,12 @@
 .home-page {
     background-image: url("../../assets/images/NSD-2nd-Lab.jpg");
-    height: 853px;
+    height: 580px;
     width: 100%;
     background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* border-bottom: 1px solid #beb6db; */
 }
 
