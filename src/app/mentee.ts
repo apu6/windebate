@@ -6,6 +6,6 @@ export interface Mentee {
     age?: string;
     school?: string;
     preferences?: string;
+    mentorID?: string;
     mentor?: string;
-    menteeID?: string;
   }
