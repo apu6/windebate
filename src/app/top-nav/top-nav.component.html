@@ -24,20 +24,34 @@
         <li>
           <button class="login-button" (click)="openLogin()">Login</button>
         </li>
+
+
+
+
       </ul>
     </div>
   </div>
+
+
+
+
+
+
+
+
 
       <div class="navbar-collapse collapse ml-auto" style="width: 100%" id="collapsibleNavbar" *ngIf="this.loginService.menteeLoggedIn">
         <div class="container-fluid" style="width: 100%;">
           <ul class="navbar-nav" style="justify-content: flex-end">
               
             <li class="nav-item">
-              <a class="nav-link" routerLink="drills">SIGNUP FOR DRILLS</a>
+              <a class="nav-link" routerLink="drills">DRILLS & CASE EDITTING</a>
             </li>
+            <!--
             <li class="nav-item">
               <a class="nav-link" routerLink="mentees">CASE EDITTING</a>
             </li>
+          -->
             <li class="nav-item">
               <a class="nav-link" routerLink="mentors">MENTORS</a>
             </li>
