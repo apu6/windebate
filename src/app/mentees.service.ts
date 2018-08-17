@@ -18,8 +18,8 @@ export class MenteesService {
     'age': '',
     'school': '',
     'preferences': '',
-    'menteeID': ''
-    // 'mentor': '',
+    'mentorID': '',
+    'mentor': ''
 
   }
 
@@ -42,7 +42,7 @@ export class MenteesService {
   }
 
   setMentee(email: string, password: string, firstName: string, lastName: string,
-  age: string, school: string, preferences: string, menteeID: string) {
+  age: string, school: string, preferences: string, mentorID: string,  mentor: string) {
     this.mentee.email = email;
     this.mentee.password = password;
     this.mentee.firstName = firstName;
@@ -50,7 +50,7 @@ export class MenteesService {
     this.mentee.age = age;
     this.mentee.school = school;
     this.mentee.preferences = preferences;
-    this.mentee.menteeID = menteeID;
-    // this.mentee.mentor = mentor;
+    this.mentee.mentorID = mentorID;
+    this.mentee.mentor = mentor;
   }
 }
