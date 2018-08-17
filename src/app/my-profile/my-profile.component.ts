@@ -16,8 +16,6 @@ export class MyProfileComponent implements OnInit {
     public loginService: LoginService
   ) { }
 
-  mentee = this.menteesService.mentee;
-
   ngOnInit() {
   }
 
