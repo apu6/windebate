@@ -54,7 +54,8 @@
               </div> -->
           
               <div class="form-group mb-2">
-                  <button type="submit" class="btn btn-secondary btn-block" (click)="signup()" [disabled]="!mentorSignupForm.valid  || mentor.password !== confirmPassword" >
+                  <button type="submit" class="btn btn-secondary btn-block" (click)="signup()">
+                  <!-- [disabled]="!mentorSignupForm.valid  || mentor.password !== confirmPassword" > -->
                     <span *ngIf="!isLoading; else loading">
                       Sign Up
                     </span>

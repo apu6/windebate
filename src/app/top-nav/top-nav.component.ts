@@ -32,7 +32,7 @@ export class TopNavComponent implements OnInit {
     this.loginService.isLoggedOut = true;
     this.loginService.menteeLoggedIn = false;
     this.loginService.mentorLoggedIn = false;
-    // this.router.navigateByUrl('home');
+    this.router.navigateByUrl('home');
   }
 
 }
