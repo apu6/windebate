@@ -78,11 +78,11 @@ export class LoginComponent implements OnInit {
       },
       (error: Error) => {
         console.log("Hello!")
-        if (error['error']) {
+        // if (error['error']) {
           this.alerts.push({
             message: "Either username or password is wrong."
           });
-        }
+        // }
       }
     ); 
   }
