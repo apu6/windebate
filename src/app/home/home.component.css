@@ -31,7 +31,8 @@
 }
 
 .who-we-are-page {
-    background-color: #e8e0fc;
+    background-image: url("../../assets/images/stripes.jpg");
+    /*linear-gradient(rgb(195, 216, 255), rgb(44, 133, 235));*/
     height: 100%;
     min-height: 450px;
     width: 100%;

@@ -1,10 +1,33 @@
 .mentees-page {
-    background-color: #e8e0fc;
+   
+
+    background-image: url("../../assets/images/stripes.jpg");
     height: 100%;
     min-height: 500px;
     width: 100%;
     overflow: hidden;
 }
+
+.mentees-page-top{
+    
+    background-image: url("../../assets/images/cover-pic-3.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    /*
+    height: 380px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-bottom: 1px solid #beb6db; 
+    
+       background-color: #e8e0fc;*/
+}
+
+
 
 .col {
     padding: 10px;
@@ -12,6 +35,7 @@
 }
 
 .mentees-header {
+
     text-align: center;
     padding: 2% 0;
     font-size: 5rem;
@@ -24,9 +48,10 @@
 }
 
 .title{
-
-    font-size: 1.5rem;
-    text-align: center;
+   color: rgb(68, 47, 107);
+    font-size: 1.7rem;
+    font-family: "Sawarabi Gothic";
+    /*text-align: center;*/
 }
 
 .signup-button {

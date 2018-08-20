@@ -11,6 +11,9 @@ import { MySessionsComponent } from '../my-sessions/my-sessions.component';
 import { ViewMyHoursComponent } from '../view-my-hours/view-my-hours.component';
 import { MyMenteeComponent } from '../my-mentee/my-mentee.component';
 import { ResourcesComponent } from '../resources/resources.component';
+import { ArticlesComponent } from '../articles/articles.component';
+import {LindseyArticleComponent} from '../lindsey-article/lindsey-article.component';
+
 
 
 const routes: Routes = [
@@ -25,6 +28,8 @@ const routes: Routes = [
   { path: 'view-my-hours', component: ViewMyHoursComponent },
   { path: 'my-mentee', component: MyMenteeComponent },
   { path: 'resources', component: ResourcesComponent },
+  {path: 'articles', component: ArticlesComponent},
+  {path: 'lindsey-article', component: LindseyArticleComponent}
 
 ];
 

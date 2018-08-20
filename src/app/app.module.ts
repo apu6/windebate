@@ -21,6 +21,8 @@ import { MyMenteeComponent } from './my-mentee/my-mentee.component';
 import { HomeComponent } from './home/home.component';
 import { AppComponent } from './app.component';
 import { ResourcesComponent } from './resources/resources.component';
+import { ArticlesComponent } from './articles/articles.component';
+import { LindseyArticleComponent } from './lindsey-article/lindsey-article.component';
 
 
 @NgModule({
@@ -41,7 +43,9 @@ import { ResourcesComponent } from './resources/resources.component';
     ViewMyHoursComponent,
     MyMenteeComponent,
     HomeComponent,
-    ResourcesComponent
+    ResourcesComponent,
+    ArticlesComponent,
+    LindseyArticleComponent
   ],
   imports: [
     BrowserModule,

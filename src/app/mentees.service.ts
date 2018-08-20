@@ -17,6 +17,7 @@ export class MenteesService {
     'lastName': '',
     'age': '',
     'school': '',
+    'genderPronoun': '',
     'preferences': '',
     'mentorID': '',
     'mentor': ''
@@ -42,13 +43,14 @@ export class MenteesService {
   }
 
   setMentee(email: string, password: string, firstName: string, lastName: string,
-  age: string, school: string, preferences: string, mentorID: string,  mentor: string) {
+  age: string, school: string, genderPronoun: string, preferences: string, mentorID: string,  mentor: string) {
     this.mentee.email = email;
     this.mentee.password = password;
     this.mentee.firstName = firstName;
     this.mentee.lastName = lastName;
     this.mentee.age = age;
     this.mentee.school = school;
+    this.mentee.genderPronoun=genderPronoun;
     this.mentee.preferences = preferences;
     this.mentee.mentorID = mentorID;
     this.mentee.mentor = mentor;

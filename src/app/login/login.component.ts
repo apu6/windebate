@@ -67,7 +67,8 @@ export class LoginComponent implements OnInit {
             response[5],
             response[6],
             response[7],
-            response[8]
+            response[8],
+            response[9]
           );
 
           console.log(this.menteesService.mentee);

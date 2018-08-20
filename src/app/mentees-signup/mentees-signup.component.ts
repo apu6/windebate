@@ -19,6 +19,7 @@ export class MenteesSignupComponent implements OnInit {
     lastName: '',
     age: '',
     school: '',
+    genderPronoun: '',
     preferences: ''
   }
 

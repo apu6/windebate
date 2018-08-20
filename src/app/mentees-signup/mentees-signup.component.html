@@ -28,9 +28,16 @@
   
               <div class="form-group">
                 <label for="">First name</label>
-                <input type="text" [(ngModel)]="mentee.firstName" class="form-control" placeholder="First name" name="firstName" required>
+                <input type="text" [(ngModel)]="mentee.firstName" class="form-control" placeholder="First name" name="firstName" required >
               </div>
   
+            
+        
+        
+
+
+
+
               <div class="form-group">
                 <label for="">Last name</label>
                 <input type="text" [(ngModel)]="mentee.lastName" class="form-control" placeholder="Last name" name="lastName" required>
@@ -45,6 +52,10 @@
                 <label for="">School</label>
                 <input type="text" [(ngModel)]="mentee.school" class="form-control" placeholder="School" name="school" required>
               </div>
+              <div class="form-group">
+                  <label for="">Gender Pronoun</label>
+                  <input type="text" [(ngModel)]="mentee.genderPronoun" class="form-control" placeholder="Gender Pronoun" name="genderPronoun" required>
+                </div>
   
               <div class="form-group">
                 <label for="">Preferences</label>
@@ -62,7 +73,7 @@
                       Sign Up
                     </span>
                     <ng-template #loading>
-                      <!-- <app-loading-spinner [height]="24"></app-loading-spinner> -->
+                    <!--<app-loading-spinner [height]="24"></app-loading-spinner> -->
                     </ng-template>
                   </button>
               </div>
