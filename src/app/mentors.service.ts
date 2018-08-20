@@ -36,7 +36,7 @@ export class MentorsService {
   }
 
   setMentor(email: string, password: string, firstName: string, lastName: string,
-    age: string, school: string, experience: string, mentorID: string) {
+    age: string, school: string, experience: string, mentorID: string, mentee: string) {
       this.mentor.email = email;
       this.mentor.password = password;
       this.mentor.firstName = firstName;
@@ -45,6 +45,7 @@ export class MentorsService {
       this.mentor.school = school;
       this.mentor.experience = experience;
       this.mentor.mentorID = mentorID;
+      this.mentor.mentee = mentee;
     }
 
   getMentor(): Observable<any> {

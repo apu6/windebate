@@ -39,6 +39,7 @@ export class MentorsSignupComponent implements OnInit {
 
   signup() {
     this.mentorsService.createMentor(this.mentor).subscribe();
+    this.close();
   }
 
 }

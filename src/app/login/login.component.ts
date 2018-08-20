@@ -79,11 +79,11 @@ export class LoginComponent implements OnInit {
       },
       (error: Error) => {
         console.log("Hello!")
-        if (error['error']) {
+        // if (error['error']) {
           this.alerts.push({
             message: "Either username or password is wrong."
           });
-        }
+        // }
       }
     ); 
   }
@@ -104,7 +104,8 @@ export class LoginComponent implements OnInit {
             response[4],
             response[5],
             response[6],
-            response[7]
+            response[7],
+            response[8]
           );
 
           console.log(this.mentorsService.mentor);
