@@ -20,6 +20,7 @@ export class MentorsSignupComponent implements OnInit {
     lastName: '',
     age: '',
     school: '',
+    genderPronoun:'',
     experience: ''
   }
 
