@@ -68,7 +68,7 @@ export class LoginComponent implements OnInit {
             response[6],
             response[7],
             response[8],
-            response[9]
+            response[9],
           );
 
           console.log(this.menteesService.mentee);
@@ -105,7 +105,8 @@ export class LoginComponent implements OnInit {
             response[5],
             response[6],
             response[7],
-            response[8]
+            response[8],
+            response[9]
           );
 
           console.log(this.mentorsService.mentor);

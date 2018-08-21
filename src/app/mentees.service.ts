@@ -50,7 +50,7 @@ export class MenteesService {
     this.mentee.lastName = lastName;
     this.mentee.age = age;
     this.mentee.school = school;
-    this.mentee.genderPronoun=genderPronoun;
+    this.mentee.genderPronoun = genderPronoun;
     this.mentee.preferences = preferences;
     this.mentee.mentorID = mentorID;
     this.mentee.mentor = mentor;

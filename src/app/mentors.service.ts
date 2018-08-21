@@ -16,6 +16,7 @@ export class MentorsService {
     'lastName': '',
     'age': '',
     'school': '',
+    'genderPronoun': '',
     'experience': '',
     'mentorID': '',
     'mentee': ''
@@ -36,13 +37,14 @@ export class MentorsService {
   }
 
   setMentor(email: string, password: string, firstName: string, lastName: string,
-    age: string, school: string, experience: string, mentorID: string, mentee: string) {
+    age: string, school: string, genderPronoun: string, experience: string, mentorID: string, mentee: string) {
       this.mentor.email = email;
       this.mentor.password = password;
       this.mentor.firstName = firstName;
       this.mentor.lastName = lastName;
       this.mentor.age = age;
       this.mentor.school = school;
+      this.mentor.genderPronoun = genderPronoun;
       this.mentor.experience = experience;
       this.mentor.mentorID = mentorID;
       this.mentor.mentee = mentee;
