@@ -1,14 +1,17 @@
-.home-page {
-    background-image: url("../../assets/images/cover-pic.jpg");
-    height: 580px;
-    width: 100%;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* border-bottom: 1px solid #beb6db; */
-}
+/* @media (min-width: 768px) { */
+    .home-page {
+        background-image: url("../../assets/images/cover-pic.jpg");
+        height: 580px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* border-bottom: 1px solid #beb6db; */
+    }
+/* } */
+
 
 .col {
     /* padding: 10px; */
@@ -45,10 +48,12 @@
     font-size: 2rem;
 } */
 
-.who-we-are-header {
-    text-align: center;
-    padding: 2% 0;
-    font-size: 3rem;
+@media (min-width: 768px) {
+    .who-we-are-header {
+        text-align: center;
+        padding: 2% 0;
+        font-size: 3rem;
+    }
 }
 
 p {
@@ -68,4 +73,8 @@ h5 {
     width: 200px;
     height: 200px;
     margin-left: 5%;
+}
+
+.win-debate-header {
+    color: white;
 }
