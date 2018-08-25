@@ -50,8 +50,9 @@
 }
 
 .title{
+    margin-top: 4%;
     color: rgb(95, 69, 145);
-        font-size: 1.7rem;
+    font-size: 1.7rem;
     font-family: "Sawarabi Gothic";
     /*text-align: center;*/
 }
@@ -68,3 +69,6 @@
     
 }
 
+p {
+    font-size: 50%;
+}
