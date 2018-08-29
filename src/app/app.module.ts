@@ -23,6 +23,7 @@ import { AppComponent } from './app.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { LindseyArticleComponent } from './lindsey-article/lindsey-article.component';
+import { KatieComponent } from './katie/katie.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { LindseyArticleComponent } from './lindsey-article/lindsey-article.compo
     HomeComponent,
     ResourcesComponent,
     ArticlesComponent,
-    LindseyArticleComponent
+    LindseyArticleComponent,
+    KatieComponent
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,7 @@ import { MyMenteeComponent } from '../my-mentee/my-mentee.component';
 import { ResourcesComponent } from '../resources/resources.component';
 import { ArticlesComponent } from '../articles/articles.component';
 import { LindseyArticleComponent } from '../lindsey-article/lindsey-article.component';
+import { KatieComponent } from '../katie/katie.component';
 
 
 
@@ -29,7 +30,9 @@ const routes: Routes = [
   { path: 'my-mentee', component: MyMenteeComponent },
   { path: 'resources', component: ResourcesComponent },
   { path: 'articles', component: ArticlesComponent },
-  { path: 'lindsey-article', component: LindseyArticleComponent }
+  { path: 'lindsey-article', component: LindseyArticleComponent},
+  { path: 'katie', component: KatieComponent
+}
 
 ];
 
