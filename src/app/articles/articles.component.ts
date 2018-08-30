@@ -17,4 +17,8 @@ export class ArticlesComponent implements OnInit {
   openLindseyArticle() {
     this.router.navigateByUrl('lindsey-article');
   }
+
+  openKatie() {
+    this.router.navigateByUrl('katie');
+  }
 }
