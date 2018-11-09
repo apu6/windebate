@@ -18,6 +18,10 @@ export class ArticlesComponent implements OnInit {
     this.router.navigateByUrl('lindsey-article');
   }
 
+  openLindseyArticle2() {
+    this.router.navigateByUrl('lindsey-article-2');
+  }
+
   openKatie() {
     this.router.navigateByUrl('katie');
   }

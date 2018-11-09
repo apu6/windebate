@@ -14,6 +14,8 @@ import { ResourcesComponent } from '../resources/resources.component';
 import { ArticlesComponent } from '../articles/articles.component';
 import { LindseyArticleComponent } from '../lindsey-article/lindsey-article.component';
 import { KatieComponent } from '../katie/katie.component';
+import { LindseyArticle2Component } from '../lindsey-article2/lindsey-article2.component';
+
 
 
 
@@ -31,7 +33,8 @@ const routes: Routes = [
   { path: 'resources', component: ResourcesComponent },
   { path: 'articles', component: ArticlesComponent },
   { path: 'lindsey-article', component: LindseyArticleComponent},
-  { path: 'katie', component: KatieComponent
+  { path: 'katie', component: KatieComponent},
+  { path: 'lindsey-article-2', component: LindseyArticle2Component
 }
 
 ];
